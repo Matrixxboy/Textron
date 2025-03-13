@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Glassmorphism Effect */
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-lg shadow-lg;
+}
+
+/* Dark mode styling */
+.dark {
+  @apply bg-bgDark text-textLight;
+}

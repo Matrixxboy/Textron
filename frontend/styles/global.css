@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Glassmorphism */
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Neon Glow */
+.neon-btn {
+    background-color: #6a0dad;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(138, 43, 226, 0.8);
+}
+
+.neon-btn:hover {
+    box-shadow: 0 0 20px rgba(138, 43, 226, 1);
+}
+
+/* Dark Mode */
+.dark-theme {
+    background: #1a1a2e;
+    color: purple;
+}

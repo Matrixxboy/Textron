@@ -1,0 +1,63 @@
+{
+  "name": "Textron",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "../node_modules/.bin/vite build",
+    "lint": "../node_modules/.bin/eslint Textron",
+    "preview": "../node_modules/.bin/vite preview"
+  },
+  "dependencies": {
+    "docx": "^9.2.0",
+    "express": "^4.21.2",
+    "file-saver": "^2.0.5",
+    "html-to-image": "^1.11.13",
+    "html-to-text": "^9.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.0",
+    "jspdf-autotable": "^5.0.2",
+    "katex": "^0.16.21",
+    "language-detect": "^1.1.0",
+    "mammoth": "^1.9.0",
+    "marked": "^15.0.7",
+    "mathjax": "^3.2.2",
+    "mathjax-node": "^2.1.1",
+    "pdf-lib": "^1.17.1",
+    "pdfmake": "^0.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-katex": "^3.0.1",
+    "react-quill": "^2.0.0",
+    "react-syntax-highlighter": "^15.6.1",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/bun": "latest",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.2.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//Matrixxboy/Textron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
